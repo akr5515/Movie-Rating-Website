@@ -1,0 +1,16 @@
+.addCategory {
+  display: block;
+  margin-bottom: 20px;
+  //   flex-direction: column;
+  input {
+    height: 30px;
+    margin-right: 20px;
+  }
+  button {
+    justify-content: center;
+    background-color: #3edd84;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+  }
+}
