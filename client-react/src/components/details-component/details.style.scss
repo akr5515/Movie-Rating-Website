@@ -1,0 +1,50 @@
+.details-card-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.star {
+  display: flex;
+  input[type="radio"] {
+    display: none;
+  }
+}
+
+.give-rating {
+  margin-left: 500px;
+  flex-direction: column;
+  justify-content: center;
+
+  button {
+    background-color: #dcecec;
+    color: black;
+    width: 100px;
+    padding: 10px 18px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 70px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: "merriweather";
+  }
+}
+.comments {
+  margin-left: 200px;
+  justify-content: center;
+}
+.comment-submit {
+  input {
+    width: 500px;
+    height: 50px;
+  }
+  button {
+    margin: 10px;
+    height: 30px;
+    background-color: blanchedalmond;
+  }
+}

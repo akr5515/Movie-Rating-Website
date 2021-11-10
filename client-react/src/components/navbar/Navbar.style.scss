@@ -1,0 +1,54 @@
+// header {
+//   background-color: rgb(240, 236, 232);
+// }
+
+.logo {
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.header {
+  margin: 0px 50px;
+
+  a {
+    text-decoration: none;
+  }
+
+  a:active {
+    color: blue;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+  display: flex;
+  justify-content: space-between;
+
+  .right-header {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    li {
+      margin: 10px 10px;
+    }
+  }
+  .navactive {
+    color: red !important;
+  }
+}
+
+.logout {
+  border: none;
+  height: 25px;
+  color: white;
+  font-weight: 100px;
+  border-radius: 5px;
+  background-color: rgb(45, 59, 58);
+}
+
+// this is the header
